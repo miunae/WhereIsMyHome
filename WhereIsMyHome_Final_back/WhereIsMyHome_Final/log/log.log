@@ -1,0 +1,34 @@
+[2m2022-12-30 18:18:12.174[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-12-30 18:18:12.293[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1312 ms
+[2m2022-12-30 18:18:13.215[0;39m [33m WARN[0;39m [35m16036[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 84d65d1a-bfe2-4057-9d08-a7cbf44997ce
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2022-12-30 18:18:13.304[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d8b0500, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76544c0a, org.springframework.security.web.context.SecurityContextPersistenceFilter@45c9b3, org.springframework.security.web.header.HeaderWriterFilter@2bfaba70, org.springframework.web.filter.CorsFilter@428bdd72, org.springframework.security.web.authentication.logout.LogoutFilter@67022ea, com.ssafy.security.JwtFilter@650c405c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6680f714, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65bad087, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20eaeaf8, org.springframework.security.web.session.SessionManagementFilter@68d6d775, org.springframework.security.web.access.ExceptionTranslationFilter@36b9cb99]
+[2m2022-12-30 18:18:13.472[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-12-30 18:21:45.563[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-12-30 18:21:45.565[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2022-12-30 18:21:45.600[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m newsList - 호출
+[2m2022-12-30 18:21:45.600[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m call newsList
+[2m2022-12-30 18:22:19.294[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m newsList - 호출
+[2m2022-12-30 18:22:19.295[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m call newsList
+[2m2022-12-30 18:25:41.628[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.StoreInfoController  [0;39m [2m:[0;39m 상권정보 리스트 - 호출
+[2m2022-12-30 18:32:04.502[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m newsList - 호출
+[2m2022-12-30 18:32:04.502[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m call newsList
+[2m2022-12-30 19:19:51.850[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m newsList - 호출
+[2m2022-12-30 19:19:51.853[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m call newsList
+[2m2022-12-30 20:47:30.442[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m newsList - 호출
+[2m2022-12-30 20:47:30.443[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.QnaController  [0;39m [2m:[0;39m call newsList
+[2m2022-12-30 20:58:57.449[0;39m [32m INFO[0;39m [35m16036[0;39m [2m---[0;39m [2m[(170)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-12-30 20:58:57.645[0;39m [33m WARN[0;39m [35m16036[0;39m [2m---[0;39m [2m[(170)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)

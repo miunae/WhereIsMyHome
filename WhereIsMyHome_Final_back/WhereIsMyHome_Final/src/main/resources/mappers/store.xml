@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.model.mapper.StoreMapper">
+
+	<resultMap type="StoreInfoDto" id="store">
+		<result column="storeName" property="storeName"/>
+		<result column="storeSectorName" property="storeSectorName"/>
+		<result column="storeAddr" property="storeAddr"/>
+		<result column="storeNAddr" property="storeNAddr"/>
+		<result column="lng" property="storeLng"/>
+		<result column="lat" property="storeLat"/>
+	</resultMap>
+
+
+	<select id="searchStore" parameterType="String" resultMap="store">
+		select * from storeinfo where storeAddr like CONCAT('%',#{storeAddr},'%') order by storeAddr
+		limit 1, 20;
+	</select>
+	
+
+</mapper>
